@@ -11,3 +11,15 @@ specialization project from Coursera. In this project, from the beginning with f
 This website uses the hosted json file using json-server via render.com, to fetch data like menu item, reservation information, and added cart, order items in profile.
 This wevsite designed like how a particular E-commerce or Restaurant website works
 
+
+
+## After cloning this project, follow these steps to get up and running:
+
+1- Install dependencies: npm install
+
+2- Start the JSON server in a separate terminal window: json-server --watch src/data/little_lemon_database.json --port 4000 (replace 4000 with your desired port number if needed)
+
+3- Run the application in the first terminal window: npm start
+
+This will launch the React application and allow you to interact with it in your browser (usually at http://localhost:3000 by default).
+
