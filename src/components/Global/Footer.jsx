@@ -51,7 +51,7 @@ const Footer = () => {
             <div className='github-icon-box'>
                 <span>{'==>'}</span>
                 <a className='text-white' 
-                href="https://github.com/shashankgitrepos/Little-Lemon-Restaurant-Website.git"
+                href="https://github.com/anouar4070/little-lemon-rest-16"
                 target='_blank' rel='nooponer noreferrer'
                 >
                     {<AiFillGithub className='github-icon'/>} 
