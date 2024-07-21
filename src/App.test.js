@@ -13,7 +13,7 @@ test('test for initializeTimes initial expected value', () => {
   render(<BookingForm/>);
   // eslint-disable-next-line testing-library/prefer-screen-queries
   const initialTime = screen.getByRole('select');
-  fireEvent.change(initailTime, { target: { value: "16:00" }})
+  fireEvent.change(initialTime, { target: { value: "16:00" }})
 
 
 })
